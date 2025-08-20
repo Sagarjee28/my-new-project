@@ -1,91 +1,334 @@
 <!DOCTYPE html>
-<html lang="nl">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-
-  <!-- Header / Navigation -->
-  <header>
-    <div class="logo">
-      <h1>Mr.jee Technologies</h1>
-    </div>
-    <nav>
-      <ul>
-        <li><a href="#">Mr.jee Technologies</a></li>
-      </ul>
-    </nav>
-    <button class="contact-btn">Contact Me Mr.jee (+917780247335)</button>
-  </header>
-
-  <!-- Hero Section -->
-  <section class="hero" id="opleiding">
-    <h2>Mr.jee technologies agenda</h2>
-    <p>Building a comprehensive car details and specifications section for your website.</p>
-    <p>Here's a detailed agenda to ensure your website provides valuable information to potential car buyers and enthusiasts:</p>
-  </section>
-  <!-- Content Blocks -->
-  <section class="content-section">
-    <h2>Doelstelling (Objective)</h2>
-    <p>"To provide comprehensive and accessible information about various car models and their features, empowering users to make informed decisions about their next vehicle purchase.".</p>
-
-    <h2>Detailed vehicle information</h2>
-    <p>General Information: Make, model, year, and variant. Ex-showroom and on-road price. Body type and seating capacity..</p>
-    <p>Engine & Performance: Engine type (petrol, diesel, electric, hybrid) and capacity (cc/litres). Horsepower (bhp) and torque (Nm). Transmission type (manual, automatic, CVT) and number of gears.Drivetrain (FWD, RWD, AWD). Acceleration (0-100 km/h) and top speed. Ground clearance and turning radius.</p>
-    <p>Fuel Efficiency & Emissions: Fuel efficiency (kmpl/MPG). Fuel tank capacity. Emission standards (e.g., BSVI).</p>
-    <p>Dimensions & Weight: Length, width, height, and wheelbase. Boot space (litres). Dry weight, kerb weight, and gross weight.</p>
-    <p>Features & Equipment: Exterior features: Lighting (LED, DRLs, fog lamps), tyres (wheel size and type). Interior features: Infotainment system (touchscreen size, connectivity, speakers), climate control, seat upholstery, power windows/mirrors, keyless entry, etc. Safety features: Airbags, ABS, EBD, ESP, traction control, cruise control, parking sensors, backup camera, advanced driver assistance systems (ADAS). Unique features or innovations for the specific model.</p>
-    <h2>Value-added content and tools</h2>
-    <p>Vehicle History Reports: Provide access to vehicle history reports for used cars to enhance transparency.
-Reviews and Testimonials: Showcase user reviews and expert testimonials to build credibility.
-Comparison Tool: Allow users to compare multiple cars side-by-side on various specifications and features.
-Financing and Trade-In Calculators: Provide tools to help users understand the financial aspects of their purchase.
-Service and Maintenance Information: Detail service schedules, costs, warranty information, and service network availability.
-Blog/Articles: Create content like car reviews, guides to understanding specifications, and buying tips.</p>
-    
-    </ul>
-    <button class="contact-btn">Mr.jee</button>
-  </section>
-
-  <!-- Highlighted Quote -->
-  <section class="quote-section">
-    "𝕰𝖛𝖊𝖗𝖞𝖙𝖍𝖎𝖓𝖌 𝖎𝖓 𝖑𝖎𝖋𝖊 𝖎𝖘 𝖘𝖔𝖒𝖊𝖜𝖍𝖊𝖗𝖊 𝖊𝖑𝖘𝖊, 𝖆𝖓𝖉 𝖞𝖔𝖚 𝖌𝖊𝖙 𝖙𝖍𝖊𝖗𝖊 𝖎𝖓 𝖆 𝖈𝖆𝖗"
-  </section>
-
-  <!-- Additional Info -->
-  <section class="content-section">
-    <h2>Insider Tips</h2>
-    <div class="info-grid">
-      <div>
-        <h3>VOOR WIE?</h3>
-        <p>Car Sales Executive, Sales Manager, Service Advisor, Showroom Manager, and Automotive Technician.</p>
-      </div>
-      <div>
-        <h3>USEFUL LINKS</h3>
-        <p> about us, Our service, Gallery, Help desk, Book your wash.</p>
-      </div>
-      <div>
-        <h3>HOURS</h3>
-        <p>Mon - Fri: 9:00 AM  - 6:00 PM</p>
-        <P>Sat-Sun: 10:00 AM - 5:00PM</P>
-      </div>
-      <div>
-        <h3>CALL US</h3>
-        <p>+917780247335</p>
-        <P>+918008254539</P>
-      </div>
-      <div>
-        <h3>LOCATION</h3>
-        <p>44-3-2, near MARKET, Thatichetlapalem, Akkayyapalem, Visakhapatnam, Andhra Pradesh 530016, India. They offer car foam washing.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 Mr.jee Technologies | Contact: 7780247335 | Email: mrjee123@gmail.com</p>
-  </footer>
-
-</body>
-</html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      /** @type {import('tailwindcss').Config} */
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              body: "var(--body-font-family)",
+              "h-1": "var(--h-1-font-family)",
+              "h-3": "var(--h-3-font-family)",
+              "intro-tekst-bold": "var(--intro-tekst-bold-font-family)",
+            },
+          },
+        },
+        plugins: [],
+      };
+    </script>
+  </head>
+  <body>
+    <div class="bg-white grid justify-items-center [align-items:start] w-screen">
+      <div class="bg-white w-[1767px] h-[3586px]">
+        <div class="relative w-[1765px] h-[3586px] left-px bg-white overflow-hidden">
+          <div class="absolute w-[2315px] h-[2085px] top-[1527px] left-0">
+            <div class="absolute w-[2315px] h-[711px] top-0 left-0">
+              <div class="absolute w-[1767px] h-[334px] top-[72px] left-0 bg-[#c4cdd34a]"></div>
+              <p
+                class="absolute w-[1179px] top-[166px] left-[293px] font-h-3 font-[number:var(--h-3-font-weight)] text-transparent text-[length:var(--h-3-font-size)] text-center tracking-[var(--h-3-letter-spacing)] leading-[var(--h-3-line-height)] [font-style:var(--h-3-font-style)]"
+              >
+                <span
+                  class="text-black font-h-3 [font-style:var(--h-3-font-style)] font-[number:var(--h-3-font-weight)] tracking-[var(--h-3-letter-spacing)] leading-[var(--h-3-line-height)] text-[length:var(--h-3-font-size)]"
+                  >Een
+                </span>
+                <span
+                  class="font-h-3 text-[#9f8a58] text-[length:var(--h-3-font-size)] [font-style:var(--h-3-font-style)] font-[number:var(--h-3-font-weight)] tracking-[var(--h-3-letter-spacing)] leading-[var(--h-3-line-height)]"
+                  >conflict</span
+                >
+                <span
+                  class="text-black font-h-3 [font-style:var(--h-3-font-style)] font-[number:var(--h-3-font-weight)] tracking-[var(--h-3-letter-spacing)] leading-[var(--h-3-line-height)] text-[length:var(--h-3-font-size)]"
+                >
+                  staat zelden op zichzelf en reikt vaak verder dan de juridische context. Mediation biedt de ruimte op
+                  een échte win-winoplossing.</span
+                >
+              </p>
+              <div class="absolute w-[572px] h-[711px] top-0 left-[1743px] bg-[#d9d9d9]"></div>
+            </div>
+            <div class="absolute w-[1767px] h-[1393px] top-[692px] left-0">
+              <img
+                class="absolute w-[850px] h-[1183px] top-[184px] left-[915px]"
+                src="https://c.animaapp.com/mejnth1wgv6Xel/img/group-15.svg"
+              />
+              <div class="absolute w-[196px] h-[47px] top-[436px] left-[858px]">
+                <div class="relative w-[194px] h-[47px] bg-[#efa4a3] rounded-[9px]">
+                  <div
+                    class="absolute w-40 top-3.5 left-5 [font-family:'Inter',Helvetica] font-medium text-white text-base tracking-[0] leading-[normal]"
+                  >
+                    Aanmelden
+                  </div>
+                  <img
+                    class="absolute w-[13px] h-[13px] top-[18px] left-[166px]"
+                    src="https://c.animaapp.com/mejnth1wgv6Xel/img/layer-1.svg"
+                  />
+                </div>
+              </div>
+              <img
+                class="top-[185px] left-[1371px] absolute w-[13px] h-2.5"
+                src="https://c.animaapp.com/mejnth1wgv6Xel/img/layer-1-1.svg"
+              />
+              <img
+                class="top-[273px] left-[1371px] absolute w-[13px] h-2.5"
+                src="https://c.animaapp.com/mejnth1wgv6Xel/img/layer-1-1.svg"
+              />
+              <p
+                class="absolute w-[488px] top-0 left-[858px] font-body font-[number:var(--body-font-weight)] text-black text-[length:var(--body-font-size)] tracking-[var(--body-letter-spacing)] leading-[var(--body-line-height)] [font-style:var(--body-font-style)]"
+              >
+                <span
+                  class="font-[number:var(--body-font-weight)] font-body [font-style:var(--body-font-style)] tracking-[var(--body-letter-spacing)] leading-[var(--body-line-height)] text-[length:var(--body-font-size)]"
+                  >27 november, 9:30 - 10:30 uur</span
+                >
+                <span
+                  class="font-body font-[number:var(--body-font-weight)] text-black text-[length:var(--body-font-size)] tracking-[var(--body-letter-spacing)] [font-style:var(--body-font-style)] leading-[var(--body-line-height)]"
+                  > informatiebijeenkomst Mediation basisopleiding (gratis) <br /><br
+                /></span>
+                <span
+                  class="font-[number:var(--body-font-weight)] font-body [font-style:var(--body-font-style)] tracking-[var(--body-letter-spacing)] leading-[var(--body-line-height)] text-[length:var(--body-font-size)]"
+                  >3 december en 7 januari
+                </span>
+                <span
+                  class="font-body font-[number:var(--body-font-weight)] text-black text-[length:var(--body-font-size)] tracking-[var(--body-letter-spacing)] [font-style:var(--body-font-style)] leading-[var(--body-line-height)]"
+                  > 2 daagse training Werken met mediationvaardigheden<br /><br /><br
+                /></span>
+                <span
+                  class="font-[number:var(--body-font-weight)] font-body [font-style:var(--body-font-style)] tracking-[var(--body-letter-spacing)] leading-[var(--body-line-height)] text-[length:var(--body-font-size)]"
+                  >13 en 14 januari 2025</span
+                >
+                <span
+                  class="font-body font-[number:var(--body-font-weight)] text-black text-[length:var(--body-font-size)] tracking-[var(--body-letter-spacing)] [font-style:var(--body-font-style)] leading-[var(--body-line-height)]"
+                  > Start blok 1 Mediation basisopleiding<br /><br /><br
+                /></span>
+                <span
+                  class="font-[number:var(--body-font-weight)] font-body [font-style:var(--body-font-style)] tracking-[var(--body-letter-spacing)] leading-[var(--body-line-height)] text-[length:var(--body-font-size)]"
+                  >maart 2025</span
+                >
+                <span
+                  class="font-body font-[number:var(--body-font-weight)] text-black text-[length:var(--body-font-size)] tracking-[var(--body-letter-spacing)] [font-style:var(--body-font-style)] leading-[var(--body-line-height)]"
+                >
+                   Start blok 1 Mediation basisopleiding<br /><br /><br
+                /></span>
+                <span
+                  class="font-[number:var(--body-font-weight)] font-body [font-style:var(--body-font-style)] tracking-[var(--body-letter-spacing)] leading-[var(--body-line-height)] text-[length:var(--body-font-size)]"
+                  >september 2025<br
+                /></span>
+                <span
+                  class="font-body font-[number:var(--body-font-weight)] text-black text-[length:var(--body-font-size)] tracking-[var(--body-letter-spacing)] [font-style:var(--body-font-style)] leading-[var(--body-line-height)]"
+                  >Start blok 1 Mediation basisopleiding</span
+                >
+              </p>
+              <img
+                class="top-[67px] absolute w-[527px] h-px left-[857px] object-cover"
+                src="https://c.animaapp.com/mejnth1wgv6Xel/img/line-1.svg"
+              />
+              <img
+                class="top-[154px] absolute w-[527px] h-px left-[857px] object-cover"
+                src="https://c.animaapp.com/mejnth1wgv6Xel/img/line-1.svg"
+              />
+              <img
+                class="top-[245px] absolute w-[527px] h-px left-[857px] object-cover"
+                src="https://c.animaapp.com/mejnth1wgv6Xel/img/line-1.svg"
+              />
+              <img
+                class="top-[329px] absolute w-[527px] h-px left-[857px] object-cover"
+                src="https://c.animaapp.com/mejnth1wgv6Xel/img/line-1.svg"
+              />
+              <img
+                class="absolute w-[13px] h-2.5 top-[367px] left-[1371px]"
+                src="https://c.animaapp.com/mejnth1wgv6Xel/img/vector.svg"
+              />
+              <footer class="absolute w-[1767px] h-[665px] top-[728px] left-0 bg-transparent">
+                <div class="relative w-[1767px] h-[664px]">
+                  <div class="absolute w-[1767px] h-[648px] top-0 left-0 bg-neutral-100"></div>
+                  <img
+                    class="absolute w-[219px] h-[107px] top-[99px] left-[181px]"
+                    src="https://c.animaapp.com/mejnth1wgv6Xel/img/group-14.png"
+                  />
+                  <div
+                    class="absolute w-[198px] top-[122px] left-[477px] [font-family:'Optima-Regular',Helvetica] font-normal text-[#273f6a] text-2xl tracking-[0] leading-[normal]"
+                  >
+                    Opleidingen
+                  </div>
+                  <div
+                    class="w-[198px] top-[122px] [font-family:'Optima-Regular',Helvetica] text-[#273f6a] text-2xl leading-[normal] absolute left-[885px] font-normal tracking-[0]"
+                  >
+                    Aanmelden
+                  </div>
+                  <div
+                    class="absolute w-[198px] top-[300px] left-[885px] [font-family:'Optima-Regular',Helvetica] font-normal text-[#273f6a] text-2xl tracking-[0] leading-[normal]"
+                  >
+                    Mediation
+                  </div>
+                  <div
+                    class="absolute w-[198px] top-[122px] left-[1293px] [font-family:'Optima-Regular',Helvetica] font-normal text-[#273f6a] text-2xl tracking-[0] leading-[normal]"
+                  >
+                    Contact
+                  </div>
+                  <div
+                    class="absolute w-[198px] top-[323px] left-[1293px] [font-family:'Optima-Regular',Helvetica] font-normal text-[#273f6a] text-2xl tracking-[0] leading-[normal]"
+                  >
+                    Adres
+                  </div>
+                  <p
+                    class="absolute w-[278px] top-[167px] left-[1293px] [font-family:'Inter',Helvetica] font-normal text-black text-base tracking-[0] leading-[28.8px]"
+                  >
+                    Elena: 06- 48544752<br />Carine: 06- 41328298<br />Marjanne: 06- 49374992<br />Toos: 06- 22092157
+                  </p>
+                  <p
+                    class="absolute w-[278px] top-[365px] left-[1293px] [font-family:'Inter',Helvetica] font-normal text-black text-base tracking-[0] leading-[28.8px]"
+                  >
+                    <span
+                      class="[font-family:'Inter',Helvetica] font-normal text-black text-base tracking-[0] leading-[28.8px]"
+                      >Wagenweg 252, Haarlem </span
+                    >
+                    <span class="text-xs leading-[21.6px]">(alleen op afspraak)</span>
+                  </p>
+                  <div class="absolute w-[196px] h-[47px] top-[461px] left-[1293px]">
+                    <div class="bg-[#c4cdd3] relative w-[194px] h-[47px] rounded-[9px]">
+                      <div
+                        class="absolute w-40 top-3.5 left-5 [font-family:'Inter',Helvetica] font-medium text-white text-base tracking-[0] leading-[normal]"
+                      >
+                        Contact met MTi
+                      </div>
+                      <img
+                        class="absolute w-[13px] h-[13px] top-[18px] left-[166px]"
+                        src="https://c.animaapp.com/mejnth1wgv6Xel/img/layer-1.svg"
+                      />
+                    </div>
+                  </div>
+                  <p
+                    class="absolute w-[317px] top-[167px] left-[477px] [font-family:'Inter',Helvetica] font-normal text-black text-base tracking-[0] leading-[28.8px]"
+                  >
+                    Basisopleiding Professionele mediation<br />Opleiding tot conflictprofessional<br />Verdieping
+                    mediators<br />Trainingen<br />Incompany trainingen<br />Trainers
+                  </p>
+                  <p
+                    class="w-[317px] top-[167px] [font-family:'Inter',Helvetica] text-black text-base leading-[28.8px] absolute left-[885px] font-normal tracking-[0]"
+                  >
+                    Aanmelden trainingen<br />Startdata en agenda opleidingen<br />informatie en inspiratie bijeenkomst
+                  </p>
+                  <p
+                    class="absolute w-[317px] top-[345px] left-[885px] [font-family:'Inter',Helvetica] font-normal text-black text-base tracking-[0] leading-[28.8px]"
+                  >
+                    Op zoek naar mediator?<br />Voor wie?<br />Team<br />Contact &amp; meer info
+                  </p>
+                  <p
+                    class="absolute w-[746px] top-[600px] left-[549px] [font-family:'Inter',Helvetica] font-normal text-black text-sm text-center tracking-[0] leading-[normal]"
+                  >
+                    Algemene voorwaarden | Privacy voorwaarden | Klachten regeling
+                  </p>
+                  <img
+                    class="absolute w-[579px] h-[55px] top-[535px] left-[626px]"
+                    src="https://c.animaapp.com/mejnth1wgv6Xel/img/group-17.png"
+                  />
+                </div>
+              </footer>
+            </div>
+            <div
+              class="absolute top-[478px] left-[855px] [font-family:'Optima-Bold',Helvetica] font-bold text-[#273f6a] text-[52px] tracking-[0] leading-[normal]"
+            >
+              Agenda
+            </div>
+            <p
+              class="absolute top-[552px] left-[855px] font-h-3 font-[number:var(--h-3-font-weight)] text-[#9f8a58] text-[length:var(--h-3-font-size)] tracking-[var(--h-3-letter-spacing)] leading-[var(--h-3-line-height)] [font-style:var(--h-3-font-style)]"
+            >
+              Binnenkort gaan deze opleidingen <br />van start bij MTi
+            </p>
+            <img
+              class="top-[701px] left-[1371px] absolute w-[13px] h-2.5"
+              src="https://c.animaapp.com/mejnth1wgv6Xel/img/layer-1-1.svg"
+            />
+            <img
+              class="top-[788px] left-[1371px] absolute w-[13px] h-2.5"
+              src="https://c.animaapp.com/mejnth1wgv6Xel/img/layer-1-1.svg"
+            />
+            <img
+              class="absolute w-[448px] h-[336px] top-[492px] left-[366px] object-cover"
+              src="https://c.animaapp.com/mejnth1wgv6Xel/img/img-5284-1.png"
+            />
+          </div>
+          <div class="absolute w-[1693px] h-[810px] top-0 left-0">
+            <div class="absolute w-[1693px] h-[810px] top-0 left-0">
+              <img
+                class="absolute w-[422px] h-[250px] top-0 left-0"
+                src="https://c.animaapp.com/mejnth1wgv6Xel/img/ellipse-1.svg"
+              />
+              <img
+                class="absolute w-[235px] h-[115px] top-[61px] left-[189px]"
+                src="https://c.animaapp.com/mejnth1wgv6Xel/img/group-1.png"
+              />
+              <img
+                class="absolute w-[1620px] h-[590px] top-[220px] left-[73px] object-cover"
+                src="https://c.animaapp.com/mejnth1wgv6Xel/img/img-2215-1.png"
+              />
+              <p
+                class="absolute top-[703px] left-[681px] font-intro-tekst-bold font-[number:var(--intro-tekst-bold-font-weight)] text-white text-[length:var(--intro-tekst-bold-font-size)] tracking-[var(--intro-tekst-bold-letter-spacing)] leading-[var(--intro-tekst-bold-line-height)] [font-style:var(--intro-tekst-bold-font-style)]"
+              >
+                Bij MTi opleidingen en mediation
+              </p>
+              <div
+                class="absolute top-[588px] left-[742px] [font-family:'Des_Montilles-Regular',Helvetica] font-normal text-white text-[95px] tracking-[0] leading-[normal]"
+              >
+                Welkom!
+              </div>
+              <div
+                class="absolute w-[77px] top-96 left-[1460px] [font-family:'Font_Awesome_5_Free-Regular',Helvetica] font-normal text-black text-base tracking-[0] leading-[normal]"
+              >
+                
+              </div>
+            </div>
+            <div
+              class="w-[216px] top-[107px] left-[765px] font-body text-black text-[length:var(--body-font-size)] absolute font-[number:var(--body-font-weight)] tracking-[var(--body-letter-spacing)] leading-[var(--body-line-height)] [font-style:var(--body-font-style)]"
+            >
+              Opleidingen &amp; trainingen
+            </div>
+            <div
+              class="absolute w-[186px] top-[107px] left-[1020px] font-body font-[number:var(--body-font-weight)] text-black text-[length:var(--body-font-size)] tracking-[var(--body-letter-spacing)] leading-[var(--body-line-height)] [font-style:var(--body-font-style)]"
+            >
+              MTi voor organisaties
+            </div>
+            <div
+              class="absolute w-24 top-[107px] left-[617px] font-body font-[number:var(--body-font-weight)] text-black text-[length:var(--body-font-size)] tracking-[var(--body-letter-spacing)] leading-[var(--body-line-height)] [font-style:var(--body-font-style)]"
+            >
+              Mediation
+            </div>
+            <div
+              class="absolute top-[108px] left-[1245px] font-body font-[number:var(--body-font-weight)] text-black text-[length:var(--body-font-size)] tracking-[var(--body-letter-spacing)] leading-[var(--body-line-height)] [font-style:var(--body-font-style)]"
+            >
+              Over MTi
+            </div>
+            <div class="absolute w-[196px] h-[47px] top-24 left-[1375px]">
+              <div class="bg-[#003a70] relative w-[194px] h-[47px] rounded-[9px]">
+                <div
+                  class="absolute w-40 top-3.5 left-5 [font-family:'Inter',Helvetica] font-medium text-white text-base tracking-[0] leading-[normal]"
+                >
+                  Contact met MTi
+                </div>
+                <img
+                  class="absolute w-[13px] h-[13px] top-[18px] left-[166px]"
+                  src="https://c.animaapp.com/mejnth1wgv6Xel/img/layer-1.svg"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="absolute w-[1036px] h-[503px] top-[953px] left-[351px]">
+            <p
+              class="absolute w-[838px] top-0 left-[99px] [font-family:'Inter',Helvetica] font-light text-black text-lg text-center tracking-[0] leading-[normal]"
+            >
+              MTi stelt jou en/of jouw organisatie in staat conflictueuze situaties gezamenlijk op te lossen. Als
+              specialist in opleidingen op gebied van mediation(vaardigheden) en effectief omgaan met conflictsituaties.
+              Als ervaren, toegankelijke, kundige mediators. Ons doel? Een maatschappij waar mensen met elkaar kunnen -
+              en blijven - praten om samen oplossingen te zoeken, ook als het lastig wordt.
+            </p>
+            <div class="absolute w-[300px] h-[336px] top-[167px] left-0 bg-[#c4cdd3]"></div>
+            <img
+              class="absolute w-[300px] h-[336px] top-[167px] left-0"
+              src="https://c.animaapp.com/mejnth1wgv6Xel/img/mask-group.png"
+            />
+            <div class="absolute w-[300px] h-[336px] top-[167px] left-[370px] bg-[#efece5]"></div>
+            <div
+              class="absolute w-[198px] top-[304px] left-5 font-h-3 font-[number:var(--h-3-font-weight)] text-[#273f6a] text-[length:var(--h-3-font-size)] tracking-[var(--h-3-letter-spacing)] leading-[var(--h
