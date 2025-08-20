@@ -3,21 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mr.jee Technologies - Mediation Basisopleiding</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-    header { background-color: #333; color: white; padding: 20px; display: flex; justify-content: space-between; align-items: center; }
-    nav ul { list-style: none; margin: 0; padding: 0; display: flex; gap: 20px; }
-    nav ul li { display: inline; }
-    nav a { color: white; text-decoration: none; font-weight: bold; }
-    .contact-btn { background-color: #ff6600; color: white; padding: 10px 15px; border: none; cursor: pointer; border-radius: 5px; }
-    .hero { background-color: #f4f4f4; padding: 60px 20px; text-align: center; }
-    .content-section { padding: 40px 20px; }
-    .content-section h2 { color: #333; }
-    .quote-section { background-color: #eee; padding: 30px 20px; font-style: italic; text-align: center; }
-    .info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 30px; }
-    footer { background-color: #222; color: white; text-align: center; padding: 20px; margin-top: 40px; }
-  </style>
 </head>
 <body>
 
